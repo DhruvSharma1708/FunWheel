@@ -22,3 +22,4 @@ How to Run
    git clone https://github.com/your-username/spin-wheel-project.git
 2. cd FunWheel
 3. Open index.html in your browser to see the spin wheel in action.
+![Screenshot 2024-08-12 192418](https://github.com/user-attachments/assets/94eae346-6ea8-4d11-9433-2fa93a21c94a)
