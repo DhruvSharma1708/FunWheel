@@ -113,7 +113,7 @@
       const rotationValues = [
         { minDegree: 0, maxDegree: 120, value: "Rakhi" },
         { minDegree: 121, maxDegree: 240, value: "Achin" },
-        { minDegree: 241, maxDegree: 360, value: "Neha's Mother" },
+        { minDegree: 241, maxDegree: 360, value: "Dhruv" },
       ];
 
       // Size of each piece
@@ -130,7 +130,7 @@
         type: "pie",
         data: {
           // Labels(values which are to be displayed on chart)
-          labels: ["Rakhi", "Achin", "Neha's Mother"],
+          labels: ["Rakhi", "Achin", "Dhruv"],
           // Settings for dataset/pie
           datasets: [
             {
@@ -161,8 +161,8 @@
 
       // Display value based on the randomAngle
       const valueGenerator = (angleValue) => {
-        // Override the value to always show "Neha's Mother" as the winner
-        finalValue.innerHTML = `<p>Congratulations! The Winner Is: Neha's Mother</p>`;
+        // Override the value to always show "Dhruv" as the winner
+        finalValue.innerHTML = `<p>Congratulations! The Winner Is: Dhruv</p>`;
         spinBtn.disabled = false;
       };
 
